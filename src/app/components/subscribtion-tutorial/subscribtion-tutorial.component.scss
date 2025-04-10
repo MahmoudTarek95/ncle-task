@@ -1,0 +1,73 @@
+@import "src/styles";
+
+.subs-tutorial {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .bref {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 150%;
+            letter-spacing: 0;
+            color: $primary-color;
+        }
+
+        .main-header {
+            font-size: 48px;
+            color: $primary-color;
+            font-weight: 700;
+            line-height: 120%;
+            letter-spacing: 0;
+        }
+
+        .desc {
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: 0;
+        }
+
+    }
+
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .step-number{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 130%;
+            text-align: center;
+        }
+        .step-title{
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 130%;
+            text-align: center;
+        }
+
+        article {
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+
+    .subs-btn {
+        font-size: 23px;
+        color: $button-color;
+        background-color: $secondary-color;
+        box-shadow: 4px 4px 0px -1px $button-color;
+        border-radius: 24px;
+        font-weight: 900;
+        line-height: 38.4px;
+        padding: 16px 20px;
+        text-align: center;
+    }
+}

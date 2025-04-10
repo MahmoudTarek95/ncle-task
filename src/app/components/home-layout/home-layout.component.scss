@@ -1,5 +1,8 @@
 @import "src/styles";
 
 .header-container{
-    background-color: $background-color;
+    background-color: $header-background-color;
+}
+.subs-container{
+    background-color: $layout-background-color;
 }
