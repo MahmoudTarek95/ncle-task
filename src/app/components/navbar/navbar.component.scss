@@ -1,0 +1,11 @@
+@import "src/styles";
+
+nav{
+    padding: 25px 50px;
+    background-color: $background-color;
+    .logo{
+        font-size: 27px;
+        font-weight: 600;
+        color: $secondary-color;
+    }
+}
