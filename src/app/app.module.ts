@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeLayoutComponent } from './components/home-layout/home-layout.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SubscribtionTutorialComponent } from './components/subscribtion-tutorial/subscribtion-tutorial.component';
+import { HomeFooterComponent } from './components/home-footer/home-footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SubscribtionTutorialComponent } from './components/subscribtion-tutoria
     NavbarComponent,
     HomeLayoutComponent,
     HeaderComponent,
-    SubscribtionTutorialComponent
+    SubscribtionTutorialComponent,
+    HomeFooterComponent
   ],
   imports: [
     BrowserModule,
