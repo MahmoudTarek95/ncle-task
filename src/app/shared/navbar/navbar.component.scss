@@ -3,6 +3,9 @@
 nav{
     padding: 25px 50px;
     background-color: $header-background-color;
+    @media (max-width: 600px) {
+        padding: 25px;
+    }
     .logo{
         font-size: 27px;
         font-weight: 600;
