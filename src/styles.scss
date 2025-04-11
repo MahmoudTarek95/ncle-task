@@ -1,6 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+
+$primary-color: black;
+$secondary-color: #FFFFFF;
+$button-color: #896AF9;
+$header-background-color: #AB95F9;
+$layout-background-color: #FFF9E6;
+$inputs-label-color: #344054;
+$form-color: #667085;
+
 @font-face {
     font-family: 'Nunito';
     src: url('./assets/font/Nunito-VariableFont_wght.ttf');
@@ -47,12 +56,29 @@ small {
     font-family: "Nunito";
 }
 
+.form-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: $inputs-label-color
+}
 
-$primary-color:black;
-$secondary-color: #FFFFFF;
-$button-color:#896AF9;
-$header-background-color: #AB95F9;
-$layout-background-color: #FFF9E6;
+.form-control {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
 
+    &::placeholder {
+        color: $form-color;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
 
+    }
+}
 
+select{
+    color: $form-color;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}

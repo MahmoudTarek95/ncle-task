@@ -1,0 +1,163 @@
+@import "src/styles";
+
+.content {
+    border-radius: 24px;
+    border: 1px solid #BFB8D7;
+    overflow: hidden;
+
+    hr {
+        opacity: 1;
+        color: #D1C5FB;
+    }
+
+    .form-title {
+        h3 {
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        h5 {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            font-weight: 400;
+        }
+    }
+
+    .breadcrumb {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0px;
+
+        .breadcrumb-item+.breadcrumb-item::before {
+            content: '>';
+        }
+
+        .active {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            letter-spacing: 0px;
+            color: #1773B0;
+            margin-right: 5px;
+        }
+    }
+
+    .form-name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0%;
+    }
+
+    .parent-select {
+        .custom-check {
+            margin-right: 10px;
+            border-radius: 48px;
+            border: 1px solid #E1E3E6;
+            color: $form-color;
+            background-color: transparent;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+
+        .btn-check:checked+.btn,
+        .btn.active,
+        .btn.show,
+        .btn:first-child:active,
+        :not(.btn-check)+.btn:active {
+            background-color: $header-background-color;
+            color: $secondary-color;
+        }
+    }
+
+    .subs-summary {
+        background-color: #F1EDFE;
+
+        .items {
+            display: flex;
+            background-color: $secondary-color;
+            border-radius: 8px;
+            padding: 21px;
+            justify-content: space-between;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+
+                .item-name {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                .item-quantity {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #838383;
+                }
+            }
+
+            .item-price-detail {
+                display: flex;
+                flex-direction: column;
+
+                .item-price-period {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #838383;
+                }
+            }
+        }
+
+        .item-price,
+        .taxes-value,
+        .total-price {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+
+            .price {
+                font-weight: 700;
+            }
+        }
+
+
+        .price-details {
+            .title {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                letter-spacing: 0px;
+                color: $primary-color;
+            }
+
+
+            .shipping-value {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                letter-spacing: 0px;
+                color: #707070;
+            }
+        }
+        .total-title {
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 150%;
+            letter-spacing: 0px;
+            color: #333333;
+        }
+    }
+
+
+
+}
