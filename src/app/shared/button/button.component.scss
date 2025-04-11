@@ -1,0 +1,16 @@
+@import "src/styles";
+
+.subs-btn{
+    font-size: 23px;
+    color: $button-color;
+    background-color: $secondary-color;
+    box-shadow: 4px 4px 0px -1px $button-color;
+    border-radius: 24px;
+    font-weight: 900;
+    line-height: 38.4px;
+    padding: 16px 20px;
+    text-align: center;
+    border:1px solid $button-color;
+    width: 100%;
+
+}
