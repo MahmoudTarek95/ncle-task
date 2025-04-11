@@ -72,8 +72,9 @@
         .btn.show,
         .btn:first-child:active,
         :not(.btn-check)+.btn:active {
-            background-color: $header-background-color;
-            color: $secondary-color;
+            background-color: #F4F1FE;
+            color: #6633FF;
+            border: 1px solid #6633FF;
         }
     }
 
