@@ -75,16 +75,25 @@
 
                             <div class="">
                                 <label for="gender" class="form-label d-block">Gender</label>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="gender" id="inlineRadio1"
-                                        value="Boy" />
-                                    <label class="form-check-label" for="inlineRadio1">Boy</label>
-                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="radio" class="btn-check" name="options" id="boy"
+                                            autocomplete="off">
+                                        <label class="btn custom-radio w-100 d-flex justify-content-between" for="boy">
+                                            Boy
+                                            <i class="bi bi-check-circle"></i>
+                                        </label>
+                                    </div>
 
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="gender" id="inlineRadio2"
-                                        value="Girl" />
-                                    <label class="form-check-label" for="inlineRadio2">Girl</label>
+                                    <div class="col-6">
+
+                                        <input type="radio" class="btn-check" name="options" id="girl"
+                                            autocomplete="off">
+                                        <label class="btn custom-radio w-100 d-flex justify-content-between" for="girl">
+                                            Girl
+                                            <i class="bi bi-check-circle"></i>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </section>
